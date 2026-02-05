@@ -134,7 +134,7 @@ export default function Projects() {
 											<div className="card-body">
 												<h3 className="card-title text-primary text-xl font-black group-hover:translate-x-1 transition-transform truncate">{repo.name}</h3>
 												<p className="line-clamp-3 text-sm opacity-70 leading-relaxed italic">
-													{repo.description || "Project documentation secured."}
+													{repo.description || "No description provided."}
 												</p>
 												<div className="card-actions justify-end mt-auto pt-4 gap-2">
 													<a href={repo.html_url} target="_blank" rel="noopener noreferrer" className="btn btn-xs btn-outline btn-primary px-4 font-bold border-2">REPOS</a>
